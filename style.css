@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/pokemon-go-video-games-pikachu-pokémon-wallpaper-768x447.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: auto;
+}
+
+h1 {
+    margin: 10px;
+    
+}
+ .title {
+    width: 40vw;
+ }
+.input-one {
+    border-radius: 15px;
+    width: 30vh;
+    text-align: center;
+    height: 4vh;
+}
+
+.input-two {
+    border-radius: 15px;
+    width: 15vh;
+    text-align: center;
+    height: 4vh;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 196, 252);
+    min-height: auto;
+    border-radius: 20px;
+    border: black solid 5px;
+    gap: 1rem;
+    color: black; 
+}
+
+.card h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    
+    max-width: 500px;
+    margin 10px;
+}
+
+.card img{
+    width: 200px;
+    margin-bottom: 10px;
+}
+.card h2 {
+    font-size: 150%;
+    margin: 3px 10px;
+    
+}
